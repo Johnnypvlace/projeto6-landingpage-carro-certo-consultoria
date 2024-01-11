@@ -144,7 +144,6 @@ section.veiculos-destaque .container{
 .vitrine{
     float: left;
     width: 33.3%;
-
 }
 
 .vitrine .info-carro1{
@@ -153,6 +152,7 @@ section.veiculos-destaque .container{
     width: 100%;
     padding-top: 100%;
     background-size: 100% 80%;
+    border: 8px solid white;
 }
 
 .vitrine .info-carro2{
@@ -161,6 +161,8 @@ section.veiculos-destaque .container{
     width: 100%;
     padding-top: 100%;
     background-size: 100% 80%;
+    border: 8px solid white;
+
 }
 
 .vitrine .info-carro3{
@@ -169,7 +171,32 @@ section.veiculos-destaque .container{
     width: 100%;
     padding-top: 100%;
     background-size: 100% 80%;
+    border: 8px solid white;
+
 }
+
+.vitrine h2{
+    padding-left: 8px;
+    font-style: italic;
+    font-size: 20px;
+    color: black;
+}
+
+.maisdetalhes{
+    float: right;
+    color: white;
+    padding: 5px 2%;
+    height: 4vh;
+    width: 10vh;
+    background-color: #EB2D2D;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
 
 
 
