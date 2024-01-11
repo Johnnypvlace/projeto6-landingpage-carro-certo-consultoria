@@ -73,7 +73,7 @@ section.banner{
     background-size: 100% 100%;
     color: white;
     font-size: 25px;
-    padding: 15px 30px;
+    padding: 15px 50px;
 }
 
 
@@ -87,7 +87,7 @@ section.banner{
     margin-top: 20px;
     margin-left: -30px;
     line-height: 50px;
-    padding: 15px 30px;
+    padding: 15px 40px;
 }
 
 .text-banner .box-text-1:nth-of-type(2){
@@ -107,11 +107,11 @@ section.banner{
 }
 
 section.veiculos-destaque{
-	padding:90px 2%;
+	padding:50px 2%;
 }
 
 .line-titulo{
-	max-width: 800px;
+	max-width: 1000px;
 	margin:0 auto;
 	position: relative;
 	text-align: center;
@@ -125,7 +125,7 @@ section.veiculos-destaque{
 	background:black;
 }
 
-section.veiculos-destaque h2{
+section.veiculos-destaque .line-titulo h2{
 	position: relative;
 	background: white;
 	display: inline-block;
@@ -136,10 +136,40 @@ section.veiculos-destaque h2{
 	text-transform: uppercase;
 }
 
+section.veiculos-destaque .container{
+    max-width: 1000px;
+    padding: 40px 0;
+}
 
+.vitrine{
+    float: left;
+    width: 33.3%;
 
+}
 
+.vitrine .info-carro1{
+    background-image: url(../images/cw_470.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 100%;
+    background-size: 100% 80%;
+}
 
+.vitrine .info-carro2{
+    background-image: url(../images/cw_470_0.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 100%;
+    background-size: 100% 80%;
+}
+
+.vitrine .info-carro3{
+    background-image: url(../images/cw_470_1.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 100%;
+    background-size: 100% 80%;
+}
 
 
 
@@ -187,6 +217,11 @@ section.veiculos-destaque h2{
 		height: 20vw;
 		min-height: 500px;
 	}
+
+    header nav ul li{
+        font-size: 20px;
+        padding:0 20px;
+    }
 
     .text-banner{
         padding: 40px;
@@ -255,6 +290,10 @@ section.veiculos-destaque h2{
 		min-height: 300px;
 	}
 
+    header nav ul li{
+        font-size: 15px;
+        padding:0 10px;
+    }
 
     .text-banner{
         padding: 40px;
