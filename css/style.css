@@ -125,7 +125,7 @@ section.veiculos-destaque{
 	background:black;
 }
 
-section.veiculos-destaque .line-titulo h2{
+.line-titulo h2{
 	position: relative;
 	background: white;
 	display: inline-block;
