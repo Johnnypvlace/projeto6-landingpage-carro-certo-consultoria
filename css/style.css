@@ -7,6 +7,7 @@
 
 html,body{
 	height: 100%;
+    overflow-x: hidden
 }
 
 .container{
@@ -222,9 +223,9 @@ section.veiculos-destaque .container{
     font-size: 15px;
     margin-top: 20px;
     color: white;
-    padding: 6px 3%;
+    padding: 8px 3%;
     height: 4vh;
-    width: 12vh;
+    width: 10vh;
     background-color: #EB2D2D;
     border-radius: 5px;
     text-decoration: none;
@@ -278,6 +279,110 @@ section.veiculos-destaque .container{
 
 }
 
+section.contato{
+    margin-top: 20%;
+    padding: 80px 2%;
+}
+
+.contato h2{
+	background: white;
+	text-align: center;
+	font-size: 27px;
+	padding:0 20px;
+	font-style: italic;
+	text-transform: uppercase;
+}
+
+section.contato form{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+section.contato .input-form{
+    float: left;
+    padding: 10px;
+    margin-top: 7px;
+}
+
+section.contato input[type=text]{
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 15px;
+}
+
+section.contato textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 120px;
+    padding: 8px;
+}
+
+section.contato input[type=submit]{
+    background-color: #EB2D2D;
+    color: white;
+    height: 4vh;
+    width: 12vh;
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section.contato form .input-form:nth-of-type(5){
+    text-align: center;
+    display: inline-block;
+}
+
+.w100{
+    width: 100%;
+
+}
+
+.w50{
+    width: 50%;
+}
+
+footer{
+    background-color: #181A1B;
+    width: 100%;
+    padding: 40px 2%;
+    
+}
+
+footer nav{
+    float: left;
+}
+
+footer p{
+    float: right;
+    color: white;
+    font-style: italic;
+    font-size: 19px;
+}
+
+footer nav ul li{
+    float: left;
+    font-style: italic;
+    padding: 0 20px;
+}
+
+footer nav ul{
+    list-style-type: none;
+    
+}
+
+footer nav ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+
+
+
 
 @media screen and (max-width: 1424px){
 
@@ -288,14 +393,14 @@ section.veiculos-destaque .container{
 		min-height: 600px;
 	}
 
-    .servicos{
-        padding: 90px 0;
-        padding-left: 200px;
-    }
 
     .depoimentos{
         padding: 90px 0;
         padding-left: 200px;
+    }
+
+    section.contato{
+        padding: 150px 2%;
     }
 
 }
@@ -310,6 +415,7 @@ section.veiculos-destaque .container{
 		height: 20vw;
 		min-height: 500px;
 	}
+
 
     header nav ul li{
         font-size: 20px;
@@ -491,6 +597,18 @@ section.veiculos-destaque .container{
         float: none;
         width: 100%;
     }
+
+    section.contato{
+        display: inline-block;
+        float: none;
+        width: 100%;
+        margin-top: 650px;
+    }
+
+    footer nav{
+        display: none;
+    }
+
 }
 
 @media screen and (max-width: 585px){
